@@ -73,6 +73,7 @@ RUN printf "\n" | pecl install \
         mongodb && \
     docker-php-ext-enable \
         imagick \
+        xdebug \
         mongodb
 
 # Environment settings
